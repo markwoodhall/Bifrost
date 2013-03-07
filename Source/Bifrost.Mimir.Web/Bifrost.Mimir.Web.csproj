@@ -263,6 +263,8 @@
     <EmbeddedResource Include="Scripts\Silverlight.js" />
     <EmbeddedResource Include="Styles\activityBar.css" />
     <EmbeddedResource Include="Scripts\noext.js" />
+    <EmbeddedResource Include="Scripts\libs\justgage.1.0.1.min.js" />
+    <EmbeddedResource Include="Scripts\libs\raphael.2.1.0.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

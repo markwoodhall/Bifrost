@@ -13,5 +13,10 @@
             <span>Replay all</span>
         </div>-->
     </div>
+
+    <div data-bind="foreach: StatisticModel.Statistics">
+        <div style="float:left;height:160px;width:200px;" data-bind="attr: { id : name }, statistic :{ id : name }">
+        </div>
+    </div>
 </body>
 </html>
